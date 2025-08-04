@@ -23,29 +23,25 @@ ElevenLabs API key
 
 Install Python dependencies:
 bash
-نسخ
-تحرير
 pip install flask flask-socketio flask-cors cohere elevenlabs RealtimeSTT scipy numpy
 🚀 How to Run
 Clone the repository:
 
 bash
-نسخ
-تحرير
+
+
 git clone https://github.com/USERNAME/REPO.git
 cd REPO
 Set your API keys in Chatbot.py:
 
 python
-نسخ
-تحرير
+
+
 self.cohere = cohere.Client("YOUR_COHERE_API_KEY")
 self.elevenlabs = ElevenLabs(api_key="YOUR_ELEVENLABS_API_KEY")
 Run the server:
 
 bash
-نسخ
-تحرير
 python Chatbot.py
 Open your browser at:
 
